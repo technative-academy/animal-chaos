@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 .image {
-  width: 200px;
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.animalcard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0 0 0 20px;
+  text-align: left;
+  font-size: 20px;
 }
