@@ -41,18 +41,22 @@ export default function MainContent() {
     <>
       <SearchInput input={input} setInput={setInput} />
       {filteredArray.length === 1 ? (
-        <p>
+        <p className={styles.filtertext}>
           {filteredSliceArray.length} of{" "}
-          {`${filteredArray.length} Animal shown`}
+          {`${filteredArray.length} animal shown`}
         </p>
       ) : (
-        <p>
+        <p className={styles.filtertext}>
           {filteredSliceArray.length} of{" "}
-          {`${filteredArray.length} Animals shown`}
+          {`${filteredArray.length} animals shown`}
         </p>
       )}
       <div className={styles.wrapper}>
-        {filteredArray.length == 0 ? <p>sad</p> : animals}
+        {filteredArray.length == 0 ? (
+          <p>sad</p>
+        ) : (
+          <div className={styles.container}>{animals}</div>
+        )}
       </div>
       {animalsDisplayed >= filteredArray.length ? (
         ""

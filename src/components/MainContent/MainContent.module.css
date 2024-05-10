@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.filtertext {
+  font-style: italic;
+  font-size: 14px;
+}
