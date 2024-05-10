@@ -52,3 +52,8 @@ button:focus-visible {
     background-color: #646cff;
   }
 }
+
+
+ul{
+	list-style: none;
+}
