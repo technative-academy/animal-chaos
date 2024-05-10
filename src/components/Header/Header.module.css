@@ -1,0 +1,31 @@
+.wrapper{
+    display: block;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    margin:auto;
+}
+
+.circle{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: -1;
+    background-color: white;
+    overflow:hidden;
+    height:800px;
+    width:800px;
+    border-radius: 50%;
+    margin-top: -600px;
+}
+
+.circleContent{
+    padding: 50px;
+    justify-content: center;
+
+}
+.circleContent h4{
+    color:gray;
+}
