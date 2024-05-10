@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 export default function SiteNav() {
   return (
     <section className={styles.header}>
-      <Link to="/">
-        <h2>Company Logo</h2>
-      </Link>
+     
       <nav>
         <ul className={styles.navmenu}>
           <li>
