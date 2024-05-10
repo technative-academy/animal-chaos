@@ -1,0 +1,48 @@
+.wrapper{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    margin:auto;
+}
+
+.circle{
+    margin:auto;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: -1;
+    background-color: white;
+    overflow:hidden;
+    min-height:1000px;
+    min-width:1100px;
+    border-radius: 100% 100% 100% 100%;
+    background-position:center;
+    margin-top: -55%;
+}
+
+.circleContent{
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circleContent h4{
+    color:gray;
+}
+
+.circleContent img{
+    width:10%;
+    height:10%;
+}
+
+.circleContentHeading{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.circleContentHeadingLeftImage{
+    transform: scaleX(-1);
+}
