@@ -3,6 +3,7 @@ import data from "../../../animals.json";
 import Animal from "../Animal/Animal";
 import SearchInput from "../SearchInput/SearchInput";
 import ShowMoreButton from "../ShowMoreButton/ShowMoreButton";
+import ShowLessButton from "../ShowLessButton/ShowLessButton";
 import { useState } from "react";
 
 export default function MainContent() {
@@ -14,6 +15,10 @@ export default function MainContent() {
 
   function increasePageSize() {
     setAnimalsDisplayed(animalsDisplayed + animalsPerPage);
+  }
+
+  function decreasePageSize() {
+    setAnimalsDisplayed(animalsDisplayed - animalsPerPage);
   }
 
   const [input, setInput] = useState("");
@@ -55,7 +60,7 @@ export default function MainContent() {
         {filteredArray.length == 0 ? <p>sad</p> : animals}
       </div>
       {animalsDisplayed >= filteredArray.length ? (
-        ""
+        <ShowLessButton decreasePageSize={decreasePageSize} />
       ) : (
         <ShowMoreButton increasePageSize={increasePageSize} />
       )}
