@@ -1,10 +1,20 @@
 import styles from "./MainContent.module.css";
 import data from "../../../animals.json";
 import Animal from "../Animal/Animal";
+import SearchInput from "../SearchInput/SearchInput";
+import { useState } from "react";
 
 export default function MainContent() {
-    console.log(data);
-    const animals = data.map((animal) => {
+    const [input, setInput] = useState("");
+    console.log(input);
+
+    const filteredArray = data.filter((animal) =>
+        animal.title.toLowerCase().includes(input.toLowerCase())
+    );
+
+    console.log(filteredArray.length);
+
+    const animals = filteredArray.map((animal) => {
         return (
             <Animal
                 id={animal.id}
@@ -15,9 +25,16 @@ export default function MainContent() {
             />
         );
     });
+
     return (
         <>
-            <div className={styles.wrapper}>{animals}</div>
+            <SearchInput input={input} setInput={setInput} />
+            {filteredArray.length === 1 ? (
+                <p>{`${filteredArray.length} Animal shown`}</p>
+            ) : (
+                <p>{`${filteredArray.length} Animals shown`}</p>
+            )}
+            <div className={styles.wrapper}>{filteredArray.length == 0 ? <p>sad</p> : animals }</div>
         </>
     );
 }
