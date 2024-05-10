@@ -10,14 +10,11 @@ export default function MainContent() {
 
   const [animalsDisplayed, setAnimalsDisplayed] = useState(animalsPerPage);
 
-  console.log(animalsDisplayed);
-
   function increasePageSize() {
     setAnimalsDisplayed(animalsDisplayed + animalsPerPage);
   }
 
   const [input, setInput] = useState("");
-  console.log(input);
 
   const filteredArray = data.filter((animal) =>
     animal.title.toLowerCase().includes(input.toLowerCase())
