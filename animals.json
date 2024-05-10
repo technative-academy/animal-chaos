@@ -3,144 +3,144 @@
     "id": 1,
     "title": "Lion",
     "description": "Why did the lion break up with his lioness girlfriend? Because she was a cheetah!",
-    "image": "lion.jpg"
+    "image": "lion.png"
   },
   {
     "id": 2,
     "title": "Eagle",
     "description": "What do you call an eagle who plays the piano? A talon-ted musician!",
-    "image": "eagle.jpg"
+    "image": "eagle.png"
   },
   {
     "id": 3,
     "title": "Elephant",
     "description": "Why did the elephant bring a suitcase to the zoo? Because he wanted to pack his trunk!",
-    "image": "elephant.jpg"
+    "image": "elephant.png"
   },
   {
     "id": 4,
     "title": "Tiger",
     "description": "Why did the tiger lose at poker? Because he was playing with a cheetah!",
-    "image": "tiger.jpg"
+    "image": "tiger.png"
   },
   {
     "id": 5,
     "title": "Giraffe",
     "description": "What do you call a giraffe who steals? A high-neck criminal!",
-    "image": "giraffe.jpg"
+    "image": "giraffe.png"
   },
   {
     "id": 6,
     "title": "Penguin",
     "description": "Why don't penguins like talking to strangers at parties? Because they find it hard to break the ice!",
-    "image": "penguin.jpg"
+    "image": "penguin.png"
   },
   {
     "id": 7,
     "title": "Kangaroo",
     "description": "Why did the kangaroo stop drinking coffee? Because it made him too jumpy!",
-    "image": "kangaroo.jpg"
+    "image": "kangaroo.png"
   },
   {
     "id": 8,
     "title": "Dolphin",
     "description": "What do you call a dolphin magician? An illusionist!",
-    "image": "dolphin.jpg"
+    "image": "dolphin.png"
   },
   {
     "id": 9,
     "title": "Panda",
     "description": "Why don't pandas like to play cards? Because they're afraid of being bamboozled!",
-    "image": "panda.jpg"
+    "image": "panda.png"
   },
   {
     "id": 10,
     "title": "Cheetah",
     "description": "Why did the cheetah lose the race? Because it took a leopard-ty of shortcuts!",
-    "image": "cheetah.jpg"
+    "image": "cheetah.png"
   },
   {
     "id": 11,
     "title": "Crocodile",
     "description": "Why did the crocodile go to the dentist? Because it had a toothy smile!",
-    "image": "crocodile.jpg"
+    "image": "crocodile.png"
   },
   {
     "id": 12,
     "title": "Gorilla",
     "description": "Why did the gorilla like bananas? Because they were a-peeling!",
-    "image": "gorilla.jpg"
+    "image": "gorilla.png"
   },
   {
     "id": 13,
     "title": "Ostrich",
     "description": "Why did the ostrich cross the road? To prove he wasn't a chicken!",
-    "image": "ostrich.jpg"
+    "image": "ostrich.png"
   },
   {
     "id": 14,
     "title": "Polar Bear",
     "description": "What do you call a polar bear in the jungle? Lost!",
-    "image": "polar-bear.jpg"
+    "image": "polar-bear.png"
   },
   {
     "id": 15,
     "title": "Hippopotamus",
     "description": "Why did the hippo get thrown out of the bar? Because he was a huge boar!",
-    "image": "hippo.jpg"
+    "image": "hippo.png"
   },
   {
     "id": 16,
     "title": "Zebra",
     "description": "Why can't you ever trust a zebra? Because they're always trying to pull the wool over your eyes!",
-    "image": "zebra.jpg"
+    "image": "zebra.png"
   },
   {
     "id": 17,
     "title": "Rhinoceros",
     "description": "Why did the rhino bring two sets of pants? In case he got a hole in one!",
-    "image": "rhino.jpg"
+    "image": "rhino.png"
   },
   {
     "id": 18,
     "title": "Sloth",
     "description": "Why was the sloth late to the meeting? Because he took things slow!",
-    "image": "sloth.jpg"
+    "image": "sloth.png"
   },
   {
     "id": 19,
     "title": "Orangutan",
     "description": "Why don't orangutans play cards in the wild? Because there are too many cheetahs!",
-    "image": "orangutan.jpg"
+    "image": "orangutan.png"
   },
   {
     "id": 20,
     "title": "Hedgehog",
     "description": "Why don't hedgehogs share their food? Because they're too prickly about it!",
-    "image": "hedgehog.jpg"
+    "image": "hedgehog.png"
   },
   {
     "id": 21,
     "title": "Wolf",
     "description": "Why don't wolves ever play hide and seek? Because good luck hiding when you're a howling success!",
-    "image": "wolf.jpg"
+    "image": "wolf.png"
   },
   {
     "id": 22,
     "title": "Koala",
     "description": "Why did the koala get fired from his job? Because he would only do the bear minimum!",
-    "image": "koala.jpg"
+    "image": "koala.png"
   },
   {
     "id": 23,
     "title": "Seagull",
     "description": "Why did the seagull fly over the sea? Because if it flew over the bay, it would be a bagel!",
-    "image": "seagull.jpg"
+    "image": "seagull.png"
   },
   {
     "id": 24,
     "title": "Otter",
     "description": "Why was the otter so happy? Because he found his significant otter!",
-    "image": "otter.jpg"
+    "image": "otter.png"
   }
 ]
